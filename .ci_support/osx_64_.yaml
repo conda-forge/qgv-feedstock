@@ -17,12 +17,9 @@ cxx_compiler_version:
 graphviz:
 - '12'
 libboost_devel:
-- '1.84'
+- '1.86'
 macos_machine:
 - x86_64-apple-darwin13.4.0
-pin_run_as_build:
-  graphviz:
-    max_pin: x
 qt_main:
 - '5.15'
 target_platform:

@@ -17,10 +17,7 @@ docker_image:
 graphviz:
 - '12'
 libboost_devel:
-- '1.84'
-pin_run_as_build:
-  graphviz:
-    max_pin: x
+- '1.86'
 qt_main:
 - '5.15'
 target_platform:
