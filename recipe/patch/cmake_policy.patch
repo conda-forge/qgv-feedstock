@@ -1,0 +1,24 @@
+From 71b6fd9f89286270e8325c13928ec19f4bba7b81 Mon Sep 17 00:00:00 2001
+From: Yann MontMarin <yann.montmarin@gmail.com>
+Date: Mon, 16 Jun 2025 11:46:11 +0200
+Subject: [PATCH] No old cmake policy as no windows build
+
+---
+ CMakeLists.txt | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git CMakeLists.txt CMakeLists.txt
+index 879b5ae..8c26e7d 100644
+--- CMakeLists.txt
++++ CMakeLists.txt
+@@ -102,8 +102,6 @@ if(BINDINGS_QT5)
+     Qt5
+     COMPONENTS Core Widgets LinguistTools
+     REQUIRED)
+-  # Do not automatically link against qtmain
+-  cmake_policy(SET CMP0020 OLD)
+ endif(BINDINGS_QT5)
+ # enable automatic moc by CMAKE
+ set(CMAKE_AUTOMOC ON)
+-- 
+2.39.5 (Apple Git-154)
