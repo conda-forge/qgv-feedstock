@@ -8,8 +8,6 @@ package:
 source:
   url: https://github.com/Gepetto/qgv/releases/download/v{{ version }}/qgv-{{ version }}.tar.gz
   sha256: 7d16757af2af423560aead009de9a6c7a2d23b3573b48f88dbe3aeee15a1c23f
-  patches:
-    - patch/cmake_policy.patch
 
 build:
   number: 0
