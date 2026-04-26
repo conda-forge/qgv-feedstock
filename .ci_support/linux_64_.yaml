@@ -15,7 +15,7 @@ docker_image:
 graphviz:
 - '14'
 libboost_devel:
-- '1.88'
+- '1.90'
 qt_main:
 - '5.15'
 target_platform:
